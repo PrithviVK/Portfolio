@@ -1,7 +1,57 @@
-.container{
+.container {
     text-align: center;
-    p{
-        font-size: 16px;
-        color:var(--footer-text-color);
-    }
-}
+    padding: 20px;
+    background-color: var(--background-color);
+  }
+  
+  .footerSection {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+  }
+  
+  .contactDetails {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+  }
+  
+  .contactItem {
+    margin: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: var(--footer-text-color);
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: var(--footer-text-color);
+    margin: 5px 0;
+  }
+  
+  a {
+    color: var(--btn-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add styling for the hr element */
+  hr {
+    border: none;
+    height: 1px;
+    background-color: var(--text-color);
+    margin: 30px 0;
+    width: 500%; /* Extend hr to fill the full width */
+    padding: 0;
+  }
+  
