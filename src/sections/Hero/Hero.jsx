@@ -5,7 +5,7 @@ import githubLight from '../../assets/github-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import githubDark from '../../assets/github-dark.svg';
 import CV from '../../assets/Prithvi_Resume.pdf';
-import { useTheme } from '../../common/themeContext';
+import { useTheme } from '../../common/ThemeContext';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 

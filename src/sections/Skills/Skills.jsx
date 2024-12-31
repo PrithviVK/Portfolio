@@ -2,7 +2,7 @@ import styles from './SkillsStyles.module.css'
 import darkIcon from '../../assets/checkmark-dark.svg'
 import lightIcon from '../../assets/checkmark-light.svg'
 import SkillList from '../../common/SkillList';
-import { useTheme } from '../../common/themeContext';
+import { useTheme } from '../../common/ThemeContext';
 
 function Skills() {
       const {theme} = useTheme();

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHome, FaProjectDiagram, FaTools, FaEnvelope } from 'react-icons/fa';
 import styles from './NavbarStyles.module.css';
-import { useTheme } from '../../common/themeContext';
+import { useTheme } from '../../common/ThemeContext';
 
 function Navbar() {
   const { theme, toggleTheme } = useTheme();
