@@ -1,31 +1,31 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     text-align: center;
-
-    span{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-    }
-
-    img{
-        width: 20px;
-    }
-
 }
 
-.skillList{
+.skillItem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.skillLogo {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 5px;
+}
+
+.skillList {
     display: flex;
     justify-content: space-evenly;
     align-self: center;
     flex-wrap: wrap;
     row-gap: 40px;
     max-width: 26ch;
-    
 }
 
-hr{
+hr {
     width: 100px;
     height: 1px;
     border: none;
@@ -33,17 +33,19 @@ hr{
     margin: 30px auto;
 }
 
-@media (width >= 800px) {
+@media (min-width: 800px) {
     .skillList {
         max-width: fit-content;
         gap: 30px;
-
-        p{
-            font-size: 20px;
-        }
     }
-    
-    hr{
+
+    p {
+        font-size: 20px;
+    }
+
+    hr {
         width: 300px;
     }
 }
+
+
