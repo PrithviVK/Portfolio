@@ -9,7 +9,7 @@ import cssLogo from '../../assets/css.png';
 import jsLogo from '../../assets/js.png';
 import reactjsLogo from '../../assets/rjs.png';
 import flaskLogo from '../../assets/fl.png';
-import djangoLogo from '../../assets/django.png';
+import djangoLogo from '../../assets/Django.png';
 import postgresqlLogo from '../../assets/psql.png';
 import mongodbLogo from '../../assets/mdb.png';
 import awsLogo from '../../assets/aws.png';
